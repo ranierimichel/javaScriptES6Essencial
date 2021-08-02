@@ -30,7 +30,7 @@ describe('Math class', function () {
   it('Divide two numbers')
   // executar soment um test use .only
   // deixar de executar um test use .skip
-  it('Multiply two numbers', function () {
+  it.skip('Multiply two numbers', function () {
     const math = new Math()
 
     assert.equal(math.multiply(value, 5), 25)
