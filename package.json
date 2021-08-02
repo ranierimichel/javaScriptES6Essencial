@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "node-fetch": "^2.6.1"
-  }
+  },
+  "name": "javascriptes6essencial",
+  "description": "Códigos de exemplo dos cursos de JavaScript ES6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "mocha": "^9.0.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranierimichel/javaScriptES6Essencial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranierimichel/javaScriptES6Essencial/issues"
+  },
+  "homepage": "https://github.com/ranierimichel/javaScriptES6Essencial#readme"
 }
