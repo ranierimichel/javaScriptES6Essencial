@@ -8,7 +8,8 @@
   "main": "index.js",
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^9.0.3"
+    "mocha": "^9.0.3",
+    "sinon": "^11.1.2"
   },
   "scripts": {
     "test": "mocha"

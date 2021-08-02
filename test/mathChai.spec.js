@@ -1,3 +1,4 @@
+// const assert = require('assert')
 const Math = require('../testes/math.js')
 const expect = require('chai').expect
 
@@ -40,7 +41,7 @@ describe('Math class', function () {
   it('Divide two numbers')
   // executar soment um test use .only
   // deixar de executar um test use .skip
-  it.only('Multiply two numbers', function () {
+  it.skip('Multiply two numbers', function () {
     const math = new Math()
     // teste validando objeto
     const obj = {
